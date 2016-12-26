@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">myDataBaseDemoUsingListViewCRUD</string>
+    <string name="NEXT">Next</string>
+    <string name="SAVE">Save</string>
+    <string name="FNAME">Enter First Name.</string>
+    <string name="LNAME">Enter Last Name.</string>
+    <string name="EDUCATION">Enter Your Education.</string>
+
+    <string name="AGE">Enter Age</string>
+    <string name="UPDATE">Update</string>
+    <string name="DELETE">Delete</string>
+</resources>

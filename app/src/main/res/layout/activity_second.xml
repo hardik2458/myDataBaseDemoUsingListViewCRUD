@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffbb00"
+    >
+    <EditText
+        android:hint="@string/FNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:id="@+id/etFirstName"
+
+        />
+    <EditText
+        android:hint="@string/LNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:id="@+id/etLastName"
+
+        />
+    <EditText
+        android:hint="@string/AGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="number"
+        android:id="@+id/etEducation"
+        android:maxLength="3"
+        />
+
+    <EditText
+        android:hint="@string/EDUCATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:id="@+id/etAge"
+
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SAVE"/>
+
+
+</LinearLayout>
